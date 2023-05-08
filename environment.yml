@@ -1,0 +1,6 @@
+name: finalproject
+dependencies:
+  - python
+  - pip
+  - pip:
+    - poetry

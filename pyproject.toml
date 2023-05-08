@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "machinelearning-covidanalysis"
+version = "0.1.0"
+description = ""
+authors = ["Luís Filipe Martins Loureiro <luisfml@al.insper.edu.br>"]
+readme = "README.md"
+packages = [{include = "machinelearning_covidanalysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "1.5.3"
+jupyter = "1.0.0"
+matplotlib = "3.7.1"
+scikit-learn = "1.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
